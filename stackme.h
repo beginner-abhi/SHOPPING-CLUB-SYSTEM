@@ -1,6 +1,5 @@
 #include <bits/stdc++.h> 
 using namespace std; 
- 
 
 struct bucket
  { 
@@ -70,10 +69,7 @@ void bpop()
 	    cout<<" |_/___/___/___|     "<<endl;     
 	    cout<<"    _______/         "<<endl;
 	    cout<<"     O   O           "<<endl;
-
-
 } 
-
 void bdisplay() 
 { 
 	struct bucket* temp; 
@@ -96,44 +92,3 @@ void bdisplay()
 
 
 
-//int main() {
-//   int ch, val; 
-//   cout<<"1) Push in stack"<<endl;
-//   cout<<"2) Pop from stack"<<endl;
-//   cout<<"3) Display stack"<<endl;
-//   cout<<"4) Peek stack"<<endl;
-//   cout<<"5) Exit"<<endl;
-//   do {
-//      cout<<"\nEnter choice: "<<endl;
-//      cin>>ch;
-//      switch(ch) {
-//         case 1: {   
-//            cout<<"Enter value to be pushed:"<<endl;
-//            cin>>val;
-//            push(val);
-//            break;
-//         }
-//         case 2: {
-//            pop();
-//            break;
-//         }
-//         case 3: {
-//            display();
-//            break;
-//         }
-//         case 4: 
-//		 {  
-//		     cout<<"\npeek value is "<<peek();
-//			break;
-//		 }
-//         case 5: {
-//            cout<<"Exit"<<endl;
-//            break;
-//         }
-//         default: {
-//            cout<<"Invalid Choice"<<endl;
-//         }
-//      }
-//   }while(ch!=5); 
-//      return 0;
-//}  
